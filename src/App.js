@@ -7,6 +7,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 
+
 const funFacts = [
   "💻 I'm constantly exploring AI, cloud, and scalable systems — future-proofing my skills.",
   "🧠 Learning about startup funding, product-market fit, and team building, because code is just the beginning.",
@@ -46,7 +47,7 @@ export default function Portfolio() {
   }, []);
 
   const particlesInit = async (main) => {
-    await loadFull(main);
+    await loadFull(main); 
   };
 
   return (
@@ -108,46 +109,89 @@ export default function Portfolio() {
             I'm Ayesha, a CS student and tech enthusiast who’s obsessed with building cool stuff that actually matters. I’m passionate about creating smooth user experiences, elegant code, and high-impact tools.
             I love brainstorming ideas and turning them into real-world products. Currently diving deep into software engineering and startup culture, because I don’t just want to work at a company, I want to build one.
           </p>
-          <p className="mt-4 text-lg text-pink-400">🔥 I dream of launching my own startup and shaking up the tech scene. #EntrepreneurVibes</p>
+          <p className="mt-4 text-lg text-pink-400">🔥 I dream of launching my own startup and shaking up the tech scene.</p>
         </div>
       </section>
+
+      {/* Education Section */}
+<section className="bg-gray-950 py-20 px-6 text-center relative z-10">
+  <motion.h2
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 1 }}
+    className="text-4xl font-bold mb-12 text-white"
+  >
+    Education
+  </motion.h2>
+
+  <div className="max-w-4xl mx-auto space-y-8">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-gray-800/80 p-8 rounded-2xl shadow-xl transform transition duration-300"
+    >
+      <h3 className="text-xl font-semibold text-pink-400">University of the People</h3>
+      <p className="text-lg text-gray-400 mb-2">Bachelor's in Computer Science</p>
+      <p className="text-sm text-gray-300">GPA: 3.76</p>
+      <p className="text-sm text-gray-400 mt-2">Expected Graduation: March 2026</p>
+    </motion.div>
+    </div>
+</section>
       
 
      {/* Skills - Updated UI */}
      <section className="bg-gray-900 py-20 relative z-10">
-        <div className="max-w-6xl mx-auto px-6">
-          <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-4xl font-bold mb-12 text-center text-white">Skills</motion.h2>
-          <div className="grid gap-10 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-            <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-              <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Code className="mr-2" />Programming Languages</h3>
-              <ul className="space-y-2 text-sm text-white/90">
-                <li>JavaScript</li>
-                <li>Java & JavaFX</li>
-                <li>Kotlin</li>
-                <li>Python (basic)</li>
-              </ul>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-              <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Wrench className="mr-2" />Frameworks & Tools</h3>
-              <ul className="space-y-2 text-sm text-white/90">
-                <li>React</li>
-                <li>MySQL</li>
-                <li>Git</li>
-                <li>Visual Studio</li>
-              </ul>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-              <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Other Skills</h3>
-              <ul className="space-y-2 text-sm text-white/90">
-                <li>HTML/CSS</li>
-                <li>Problem Solving & Debugging</li>
-                <li>Team Collaboration</li>
-                <li>Effective Communication</li>
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-6xl mx-auto px-6">
+    <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-4xl font-bold mb-12 text-center text-white">Skills</motion.h2>
+    <div className="grid gap-10 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+      {/* Programming Languages */}
+      <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Code className="mr-2" />Programming Languages</h3>
+        <ul className="space-y-2 text-sm text-white/90">
+          <li>JavaScript</li>
+          <li>Java & JavaFX</li>
+          <li>Kotlin</li>
+          <li>Python (basic)</li>
+        </ul>
+      </motion.div>
+      
+      {/* Frameworks & Tools */}
+      <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Wrench className="mr-2" />Frameworks</h3>
+        <ul className="space-y-2 text-sm text-white/90">
+          <li>React</li>
+          <li>JavaFX</li>
+          <li>Tailwind CSS</li>
+          <li>Socket Programming</li>
+          <li>Agile</li>
+        </ul>
+      </motion.div>
+       {/* Tools & Technologies */}
+       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Tools & Technologies</h3>
+        <ul className="space-y-2 text-sm text-white/90">
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>MySQL</li>
+          <li>Firebase</li>
+          <li>Vercel</li>
+        </ul>
+      </motion.div>
+      
+      {/* Soft Skills */}
+      <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Soft Skills</h3>
+        <ul className="space-y-2 text-sm text-white/90">
+          <li>Problem Solving</li>
+          <li>Communication</li>
+          <li>Debugging</li>
+          <li>Team Collaboration</li>
+          <li>Fast Learner</li>
+          <li>Adaptability</li>
+        </ul>
+      </motion.div>
+    </div>
+  </div>
+</section>
 
      {/* Projects */}
 <section className="max-w-5xl mx-auto px-6 py-20 relative z-20">
@@ -184,6 +228,19 @@ export default function Portfolio() {
             </ul>
             <a href="https://github.com/dlawiz83/Simple-ChatBot" className="underline text-pink-500">GitHub Repo</a>
           </motion.div>
+
+          <motion.div whileHover={{ scale: 1.03 }} className="bg-[#1f1f1f] p-6 rounded-xl shadow-xl">
+      <h3 className="text-xl font-semibold mb-2">🎬 Cinema Ticket Booking System</h3>
+      <p className="text-gray-400 mb-2">Java (Console-based)</p>
+      <p className="text-gray-300 text-sm mb-3">A simple, console-based application in Java that simulates a cinema ticket booking system. Allows users to view available seats, purchase tickets, and view ticket sales statistics.</p>
+      <ul className="list-disc list-inside text-gray-300 text-sm mb-3">
+        <li>View available seats</li>
+        <li>Purchase tickets</li>
+        <li>Track ticket sales statistics</li>
+      </ul>
+      <p className="text-gray-300 text-sm mb-3">Technologies Used: Java, Object-Oriented Programming (OOP)</p>
+      <a href="https://github.com/dlawiz83/Cinema-Ticket-Booking-System" className="underline text-pink-500">GitHub Repo</a>
+    </motion.div>
         </div>
       </section>
 
@@ -205,6 +262,29 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      {/* Organizations Section */}
+<section className="bg-gray-900 py-20 relative z-10">
+  <div className="max-w-6xl mx-auto px-6">
+    <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-4xl font-bold mb-12 text-center text-white">Organizations</motion.h2>
+    <div className="space-y-8">
+      {/* Rewriting the Code Membership */}
+      <div>
+        <h3 className="text-xl font-semibold">Rewriting the Code – Member</h3>
+        <p className="text-gray-400 text-sm">Aug 2024 – Present</p>
+        <p className="text-gray-300 text-sm mt-2">Participated in workshops and networking opportunities for women in tech, focused on bridging the gender gap in the tech industry.</p>
+      </div>
+      
+      {/* Girls with Impact Organization */}
+      <div>
+        <h3 className="text-xl font-semibold">Girls with Impact – Member</h3>
+        <p className="text-gray-400 text-sm">Jan 2025 – Mar 2025</p>
+        <p className="text-gray-300 text-sm mt-2">Engaged in a Business and Leadership Academy focused on driving social impact, applying software solutions to solve real-world problems related to community development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact */}
 <section className="max-w-5xl mx-auto px-6 py-20 text-center relative z-20">
