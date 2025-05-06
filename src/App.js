@@ -150,6 +150,7 @@ export default function Portfolio() {
           <li>JavaScript</li>
           <li>Java & JavaFX</li>
           <li>Kotlin</li>
+       <li>PHP</li>
           <li>Python (basic)</li>
         </ul>
       </motion.div>
