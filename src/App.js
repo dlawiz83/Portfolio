@@ -9,9 +9,9 @@ import { loadFull } from "tsparticles";
 
 
 const funFacts = [
-  "💻 I'm constantly exploring AI, cloud, and scalable systems — future-proofing my skills.",
+  "💻 I'm constantly exploring AI, cloud, and scalable systems future-proofing my skills.",
   "🧠 Learning about startup funding, product-market fit, and team building, because code is just the beginning.",
-  "🌐 I'm obsessed with building products that scale and actually solve real-world problems.",
+  "🌐 I'm obsessed with building products that scale and solve real-world problems.",
   "💥 I don't just want to land a job, I want to create opportunities for others too.",
   "📊 I believe tech-savviness + business sense = startup superpower.",
   
@@ -181,7 +181,7 @@ export default function Portfolio() {
       
       {/* Web */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><className="mr-2" />Web Technologies</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center">< Globa2 className="mr-2" />Web Technologies</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>HTML</li>
           <li>CSS</li>
@@ -193,7 +193,7 @@ export default function Portfolio() {
       </motion.div>
         {/* Databases & Backend:*/}
        <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center">< className="mr-2" />Databases & Backend</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Databases & Backend</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>MySQL</li>
           <li>Firebase (Auth + Firestore)</li>
