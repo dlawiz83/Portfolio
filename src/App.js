@@ -2,7 +2,7 @@ import './App.css';
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Code, Wrench, Globe2, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Code, Wrench, Globe2, Database, Tool, Download } from "lucide-react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -139,10 +139,11 @@ export default function Portfolio() {
       
 
      {/* Skills - Updated UI */}
-     <section className="bg-gray-900 py-20 relative z-10">
+    <section className="bg-gray-900 py-20 relative z-10">
   <div className="max-w-6xl mx-auto px-6">
     <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-4xl font-bold mb-12 text-center text-white">Skills</motion.h2>
     <div className="grid gap-10 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+
       {/* Programming Languages */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
         <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Code className="mr-2" />Programming Languages</h3>
@@ -150,12 +151,12 @@ export default function Portfolio() {
           <li>Java</li>
           <li>JavaScript</li>
           <li>Kotlin</li>
-       <li>PHP</li>
+          <li>PHP</li>
           <li>Python (basic)</li>
         </ul>
       </motion.div>
-      
-      {/* Frameworks & Tools */}
+
+      {/* Frameworks & Libraries */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
         <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Wrench className="mr-2" />Frameworks & Libraries</h3>
         <ul className="space-y-2 text-sm text-white/90">
@@ -166,44 +167,45 @@ export default function Portfolio() {
           <li>Agile</li>
         </ul>
       </motion.div>
-       {/* Tools & Technologies */}
-       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Tools & Technologies</h3>
+
+      {/* Tools & Technologies */}
+      <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Tool className="mr-2" />Tools & Technologies</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>Git</li>
           <li>GitHub</li>
           <li>Firebase CLI</li>
           <li>Vercel</li>
-         <li>Figma</li>
-         <li>UNIX/Linux</li>
+          <li>Figma</li>
+          <li>UNIX/Linux</li>
         </ul>
       </motion.div>
-      
-      {/* Web */}
+
+      {/* Web Technologies */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center">< Globa2 className="mr-2" />Web Technologies</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe className="mr-2" />Web Technologies</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>HTML</li>
           <li>CSS</li>
           <li>REST APIs</li>
           <li>Responsive Design</li>
-          
-        
         </ul>
       </motion.div>
-        {/* Databases & Backend:*/}
-       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Databases & Backend</h3>
+
+      {/* Databases & Backend */}
+      <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Database className="mr-2" />Databases & Backend</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>MySQL</li>
           <li>Firebase (Auth + Firestore)</li>
           <li>MongoDB</li>
-          
         </ul>
       </motion.div>
+
     </div>
   </div>
 </section>
+
 
      {/* Projects */}
 <section className="max-w-5xl mx-auto px-6 py-20 relative z-20">
