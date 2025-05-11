@@ -185,7 +185,7 @@ export default function Portfolio() {
 
       {/* Web Technologies */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe className="mr-2" />Web Technologies</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Web Technologies</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>HTML</li>
           <li>CSS</li>
