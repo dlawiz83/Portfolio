@@ -2,7 +2,7 @@ import './App.css';
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Code, Wrench, Globe2, Database, Tools, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Code, Wrench, Globe2, Database, Download } from "lucide-react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -170,7 +170,9 @@ export default function Portfolio() {
 
       {/* Tools & Technologies */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Tools className="mr-2" />Tools & Technologies</h3>
+       <h3 className="text-xl font-semibold mb-4 text-pink-400">
+  Tools & Technologies
+</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>Git</li>
           <li>GitHub</li>
