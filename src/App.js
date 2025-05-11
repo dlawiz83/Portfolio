@@ -147,8 +147,8 @@ export default function Portfolio() {
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
         <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Code className="mr-2" />Programming Languages</h3>
         <ul className="space-y-2 text-sm text-white/90">
+          <li>Java</li>
           <li>JavaScript</li>
-          <li>Java & JavaFX</li>
           <li>Kotlin</li>
        <li>PHP</li>
           <li>Python (basic)</li>
@@ -157,7 +157,7 @@ export default function Portfolio() {
       
       {/* Frameworks & Tools */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Wrench className="mr-2" />Frameworks</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Wrench className="mr-2" />Frameworks & Libraries</h3>
         <ul className="space-y-2 text-sm text-white/90">
           <li>React</li>
           <li>JavaFX</li>
@@ -172,22 +172,33 @@ export default function Portfolio() {
         <ul className="space-y-2 text-sm text-white/90">
           <li>Git</li>
           <li>GitHub</li>
-          <li>MySQL</li>
-          <li>Firebase</li>
+          <li>Firebase CLI</li>
           <li>Vercel</li>
+         <li>Figma</li>
+         <li>UNIX/Linux</li>
         </ul>
       </motion.div>
       
-      {/* Soft Skills */}
+      {/* Web */}
       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
-        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Soft Skills</h3>
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Web Technologies</h3>
         <ul className="space-y-2 text-sm text-white/90">
-          <li>Problem Solving</li>
-          <li>Communication</li>
-          <li>Debugging</li>
-          <li>Team Collaboration</li>
-          <li>Fast Learner</li>
-          <li>Adaptability</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>REST APIs</li>
+          <li>Responsive Design</li>
+          
+        
+        </ul>
+      </motion.div>
+        {/* Databases & Backend:*/}
+       <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800/60 p-6 rounded-2xl shadow-xl">
+        <h3 className="text-xl font-semibold mb-4 text-pink-400 flex items-center"><Globe2 className="mr-2" />Databases & Backend</h3>
+        <ul className="space-y-2 text-sm text-white/90">
+          <li>MySQL</li>
+          <li>Firebase (Auth + Firestore)</li>
+          <li>MongoDB</li>
+          
         </ul>
       </motion.div>
     </div>
