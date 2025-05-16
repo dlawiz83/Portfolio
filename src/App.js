@@ -257,6 +257,20 @@ export default function Portfolio() {
       <p className="text-gray-300 text-sm mb-3">Technologies Used: Java, Object-Oriented Programming (OOP)</p>
       <a href="https://github.com/dlawiz83/Cinema-Ticket-Booking-System" className="underline text-pink-500">GitHub Repo</a>
     </motion.div>
+  <motion.div whileHover={{ scale: 1.03 }} className="bg-[#1f1f1f] p-6 rounded-xl shadow-xl">
+  <h3 className="text-xl font-semibold mb-2">🕵️‍♀️ Secret Message App</h3>
+  <p className="text-gray-400 mb-2">PHP + MySQL</p>
+  <p className="text-gray-300 text-sm mb-3">
+    A privacy-focused tool that lets users send self-destructing secret messages through unique links. Once viewed, the message is deleted forever.
+  </p>
+  <ul className="list-disc list-inside text-gray-300 text-sm mb-3">
+    <li>One-time view message links with token-based access</li>
+    <li>MySQL backend and secure form handling</li>
+    <li>Auto-deletes old messages after 24 hours</li>
+  </ul>
+  <a href="https://github.com/dlawiz83/Secret-Message-Generator" className="underline text-pink-500">GitHub Repo</a>
+</motion.div>
+
         </div>
       </section>
 
