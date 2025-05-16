@@ -261,7 +261,7 @@ export default function Portfolio() {
   <h3 className="text-xl font-semibold mb-2">🕵️‍♀️ Secret Message App</h3>
   <p className="text-gray-400 mb-2">PHP + MySQL</p>
   <p className="text-gray-300 text-sm mb-3">
-    A privacy-focused tool that lets users send self-destructing secret messages through unique links. Once viewed, the message is deleted forever.
+    A privacy-focused tool that lets users send secret messages through unique links. Once viewed, the message is deleted forever.
   </p>
   <ul className="list-disc list-inside text-gray-300 text-sm mb-3">
     <li>One-time view message links with token-based access</li>
