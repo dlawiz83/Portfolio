@@ -132,7 +132,7 @@ export default function Portfolio() {
       <h3 className="text-xl font-semibold text-pink-400">University of the People</h3>
       <p className="text-lg text-gray-400 mb-2">Bachelor's in Computer Science</p>
       <p className="text-sm text-gray-300">GPA: 3.76</p>
-      <p className="text-sm text-gray-400 mt-2">Expected Graduation: March 2026</p>
+      <p className="text-sm text-gray-400 mt-2">Expected Graduation: December 2025</p>
     </motion.div>
     </div>
 </section>
