@@ -280,6 +280,27 @@ export default function Portfolio() {
           <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-3xl font-bold mb-10">Experience</motion.h2>
           <div className="space-y-8">
             <div>
+  <h3 className="text-xl font-semibold">
+    2025 Virtual Insights Series Participant – Goldman Sachs
+  </h3>
+  <p className="text-gray-400 text-sm">May 2025 – Present</p>
+  <ul className="text-gray-300 text-sm mt-2 list-disc list-inside space-y-1">
+    <li>
+      Selected for a competitive 4-week virtual program exploring key divisions,
+      including Engineering, Investment Banking, and Risk Management.
+    </li>
+    <li>
+      Participated in professional development sessions, networking events, and
+      skill-building workshops led by Goldman Sachs professionals.
+    </li>
+    <li>
+      Gained insights into industry practices, financial markets, and cutting-edge
+      engineering solutions.
+    </li>
+  </ul>
+</div>
+
+        <div>
               <h3 className="text-xl font-semibold">Software Engineering Fellow – Headstarter</h3>
               <p className="text-gray-400 text-sm">Jul 2024 – Sep 2024</p>
               <p className="text-gray-300 text-sm mt-2">Built a Firebase-based inventory system that reduced discrepancies by 30% and improved management workflows.</p>
