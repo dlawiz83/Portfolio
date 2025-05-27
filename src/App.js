@@ -242,12 +242,12 @@ export default function Portfolio() {
     Tech used: JavaScript, HTML, CSS, localStorage API
   </p>
   <a
-    href="[Your Live Demo or GitHub Repo Link Here]"
+    href="https://github.com/dlawiz83/FlavorVault"
     className="underline text-pink-500"
     target="_blank"
     rel="noopener noreferrer"
   >
-   
+    GitHub Repo / Live Demo
   </a>
 </motion.div>
 
