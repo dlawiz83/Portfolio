@@ -88,7 +88,7 @@ export default function Portfolio() {
           <a href="https://www.linkedin.com/in/ayesha-dawodi" className="hover:scale-110 transition-transform"><Linkedin /></a>
           <a href="https://github.com/dlawiz83" className="hover:scale-110 transition-transform"><Github /></a>
         </div>
-        <a href="https://drive.google.com/file/d/1FvOOfEdjBulXFvBLjd8Ghq7YhmPa9v58/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-2 px-4 py-2 border border-pink-500 text-pink-500 rounded-lg hover:bg-pink-500 hover:text-white transition">
+        <a href="https://drive.google.com/file/d/1Ptr-isvutgiL_pgjXrSnNN16SyaVRR_1/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-2 px-4 py-2 border border-pink-500 text-pink-500 rounded-lg hover:bg-pink-500 hover:text-white transition">
           <Download className="w-4 h-4" /> Download Resume
         </a>
 
