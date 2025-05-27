@@ -225,6 +225,32 @@ export default function Portfolio() {
             </ul>
             <a href="https://github.com/dlawiz83/Collaborative-text-editor" className="underline text-pink-500">GitHub Repo</a>
           </motion.div>
+  <motion.div whileHover={{ scale: 1.03 }} className="bg-[#1f1f1f] p-6 rounded-xl shadow-xl">
+  <h3 className="text-xl font-semibold mb-2">🍲 Recipe Vault</h3>
+  <p className="text-gray-400 mb-2">JavaScript + HTML + CSS + localStorage</p>
+  <p className="text-gray-300 text-sm mb-3">
+    A personal web app to manage and organize your favorite recipes with images and details.
+  </p>
+  <ul className="list-disc list-inside text-gray-300 text-sm mb-3">
+    <li>Add your recipes with images, descriptions, and ingredients easily via a clean form interface.</li>
+    <li>Browse your collection through interactive recipe cards with delete options.</li>
+    <li>Search recipes dynamically by title, ingredients, or description for quick access.</li>
+    <li>Click any recipe card to view detailed information in a stylish modal popup.</li>
+    <li>Data is saved locally in the browser using localStorage for persistent storage without backend setup.</li>
+  </ul>
+  <p className="text-gray-300 text-sm mb-3">
+    Tech used: JavaScript, HTML, CSS, localStorage API
+  </p>
+  <a
+    href="[Your Live Demo or GitHub Repo Link Here]"
+    className="underline text-pink-500"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+   
+  </a>
+</motion.div>
+
 
           <motion.div whileHover={{ scale: 1.03 }} className="bg-[#1f1f1f] p-6 rounded-xl shadow-xl">
             <h3 className="text-xl font-semibold mb-2">📋 To-Do List App</h3>
