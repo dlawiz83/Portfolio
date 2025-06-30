@@ -1,0 +1,16 @@
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7e22ce"></stop>
+      <stop offset="100%" stop-color="#ec4899"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Abstract minimal icon: sleek wave shape -->
+  <path d="M15 55 Q40 15 65 55 Q90 95 115 55" stroke="url(#grad)" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Wordmark "Ayesha" -->
+  <text x="140" y="55" font-family="Poppins, sans-serif" font-weight="700" font-size="38" fill="url(#grad)" letter-spacing="1.5">
+    Ayesha
+  </text>
+</svg>
