@@ -12,6 +12,15 @@ const experiences = [
     ],
   },
   {
+  role: "Emerging Leaders Program Participant",
+  company: "Microsoft",
+  period: "Jul 2025 – Present",
+  details: [
+    "Selected from over 1,300 applicants to participate in a leadership development program led by Microsoft Security.",
+    "Key learning areas included: Leadership & Influence, Storytelling & Purpose, Growth Mindset, Personal Branding, and Career & Internship Readiness.",
+  ],
+},
+  {
     role: "Student Ambassador",
     company: "Microsoft",
     period: "Oct 2023 – Sep 2024",
