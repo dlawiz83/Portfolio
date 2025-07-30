@@ -37,7 +37,7 @@ export default function Hero() {
         </motion.button>
 
         <motion.a
-          href="https://drive.google.com/file/d/15ZC92FZJdX_a-gRIEZ29Pq70jxuAPZ3L/view?usp=sharing" 
+          href="https://drive.google.com/file/d/19p-ah-3nEEwIJBSxwZu11QSEAI1-WDlC/view?usp=sharing" 
           download
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
