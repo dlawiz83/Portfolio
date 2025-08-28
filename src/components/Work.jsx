@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import crmImage from "../assets/crm.jpg";
 
 const allProjects = [
   {
@@ -67,7 +68,7 @@ const allProjects = [
   title: "Connexta – CRM Web App (Backend in Progress)",
   description:
     "Built with Node.js, Express, MongoDB, and JWT authentication. Features full CRUD APIs for users, contacts, and interactions, a Next Actions dashboard, stage-based pipeline API, input validation, and security measures.",
-  image: "https://images.unsplash.com/photo-1590608897129-79d2e2f5e23f?auto=format&fit=crop&w=600&q=80", 
+  image: crmImage, 
   category: "Web",
   link: "#", 
   github: "https://github.com/dlawiz83/Connexta",
