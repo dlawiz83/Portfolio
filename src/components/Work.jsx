@@ -5,9 +5,9 @@ import crmImage from "../assets/crm.jpg";
 const allProjects = [
    {
     id: 0,
-    title: "RoadmapHub – Product Roadmap & Feedback Platform (Frontend In Progress)",
+    title: "RoadmapHub – Product Roadmap & Feedback Platform",
     description:
-      "Leading development of a collaborative roadmap and user feedback platform with a 7-member cross-functional team. Backend built using Node.js, Express, and MongoDB.",
+      "Leading development of a collaborative roadmap and user feedback platform. Backend built using Node.js, Express, and MongoDB",
     image:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80",
     category: "Web",
