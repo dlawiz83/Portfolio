@@ -7,7 +7,7 @@ const allProjects = [
     id: 0,
     title: "RoadmapHub – Product Roadmap & Feedback Platform (Frontend In Progress)",
     description:
-      "Leading development of a collaborative roadmap and user feedback platform with a 7-member cross-functional team. Backend built using Node.js, Express, and MongoDB for scalable, real-time feedback aggregation and roadmap updates.",
+      "Leading development of a collaborative roadmap and user feedback platform with a 7-member cross-functional team. Backend built using Node.js, Express, and MongoDB.",
     image:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80",
     category: "Web",
