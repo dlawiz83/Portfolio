@@ -3,6 +3,17 @@ import { motion, AnimatePresence } from "framer-motion";
 import crmImage from "../assets/crm.jpg";
 
 const allProjects = [
+   {
+    id: 0,
+    title: "RoadmapHub – Product Roadmap & Feedback Platform (Frontend In Progress)",
+    description:
+      "Leading development of a collaborative roadmap and user feedback platform with a 7-member cross-functional team. Backend built using Node.js, Express, and MongoDB for scalable, real-time feedback aggregation and roadmap updates.",
+    image:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80",
+    category: "Web",
+    link: "#",
+    github: "https://github.com/dlawiz83/roadmaphub",
+  },
   {
     id: 1,
     title: "SkillSwap – Learning Match Platform",
@@ -65,9 +76,9 @@ const allProjects = [
   },
   {
   id: 7,
-  title: "Connexta – CRM Web App (Backend in Progress)",
+  title: "Connexta – CRM Web App (Frontend in Progress)",
   description:
-    "Built with Node.js, Express, MongoDB, and JWT authentication. Features full CRUD APIs for users, contacts, and interactions, a Next Actions dashboard, stage-based pipeline API, input validation, and security measures.",
+    "Backend built with Node.js, Express, MongoDB, and JWT authentication. Features full CRUD APIs for users, contacts, and interactions, a Next Actions dashboard, stage-based pipeline API, input validation, and security measures.",
   image: crmImage, 
   category: "Web",
   link: "#", 
