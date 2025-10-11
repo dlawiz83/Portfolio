@@ -22,7 +22,7 @@ const skillsData = [
       "Next.js",
       "Vite",
       "Bootstrap",
-      "Node.js",
+      "React Native",
     ],
   },
   {
@@ -32,6 +32,10 @@ const skillsData = [
       "CSS",
       "REST APIs",
       "Responsive Design",
+      
+
+
+
     ],
   },
   {
@@ -41,6 +45,8 @@ const skillsData = [
       "Firebase (Auth + Firestore)",
       "MongoDB",
       "AWS/Azure",
+      "Node.js",
+      "Express.js", 
     ],
   },
   {
@@ -53,6 +59,8 @@ const skillsData = [
       "UNIX/Linux",
       "Firebase CLI",
       "Microsoft Office (Word, Excel, PowerPoint)",
+      "Jira", 
+      "Postman",
     ],
   },
   {
