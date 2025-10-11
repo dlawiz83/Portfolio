@@ -2,6 +2,26 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Builder in Residence (Delta)",
+    company: "The Residency",
+    period: "Oct 2025 – Present",
+    details: [
+      "Accepted into Delta, a 3-week global residency by The Residency for builders and creators, selected from 1,000+ applicants.",
+      "Collaborating with a global cohort of founders and innovators to explore, build, and refine high-impact ideas through mentorship, live sessions, and community challenges.",
+    ],
+  },
+  {
+    role: "General Manager (Product Manager) & Backend Contributor",
+    company: "RoadmapHub (In Progress)",
+    period: "Aug 2025 – Present",
+    details: [
+      "Leading a 7-member cross-functional team to develop a collaborative product roadmap and user feedback platform for community-driven product planning.",
+      "Overseeing all aspects of project planning, Agile sprint coordination, and backlog management using Jira to ensure efficient task tracking and alignment.",
+      "Designing and implementing backend architecture using Node.js, Express, and MongoDB to support scalable, real-time feedback aggregation and roadmap updates.",
+      "Facilitating daily stand-ups, sprint planning, and retrospectives to drive continuous progress and team collaboration.",
+    ],
+  },
+  {
     role: "Software Engineering Fellow",
     company: "Headstarter AI",
     period: "Jul 2024 – Sep 2024",
@@ -12,14 +32,14 @@ const experiences = [
     ],
   },
   {
-  role: "Emerging Leaders Program Participant",
-  company: "Microsoft",
-  period: "Jul 2025 – Present",
-  details: [
-    "Selected from over 1,300 applicants to participate in a leadership development program led by Microsoft Security.",
-    "Key learning areas included: Leadership & Influence, Storytelling & Purpose, Growth Mindset, Personal Branding, and Career & Internship Readiness.",
-  ],
-},
+    role: "Emerging Leaders Program Participant",
+    company: "Microsoft",
+    period: "Jul 2025 – Sep 2025",
+    details: [
+      "Selected from over 1,300 applicants to participate in a leadership development program led by Microsoft Security.",
+      "Focused on Leadership & Influence, Storytelling & Purpose, Growth Mindset, Personal Branding, and Career Readiness.",
+    ],
+  },
   {
     role: "Student Ambassador",
     company: "Microsoft",
@@ -32,12 +52,13 @@ const experiences = [
   {
     role: "Virtual Insights Series Participant",
     company: "Goldman Sachs",
-    period: "May 2025 – June 2025",
+    period: "May 2025 – Jun 2025",
     details: [
       "Selected for a competitive 4-week virtual program exploring divisions such as Engineering, Investment Banking, and Risk Management.",
     ],
   },
 ];
+
 
 const containerVariants = {
   hidden: {},
