@@ -6,6 +6,11 @@ const organizations = [
     role: "Active Member",
     period: "2023 – Present",
   },
+  {
+    name: "Propel2Excel",
+    role: "Active Fellow",
+    period: "2025 – Present",
+  },
   
   {
     name: "Microsoft Student Ambassador Program",
