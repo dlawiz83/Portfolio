@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import crmImage from "../assets/crm.jpg";
+import dash4goodImage from "../assets/Dash4Good.png";
+
 
 
 const allProjects = [
@@ -90,7 +92,7 @@ const allProjects = [
   title: "Dash 4 Good – Community Food Rescue Platform",
   description:
     "Built with React Native and Firebase for a hackathon. Connects organizations with surplus food to nearby food banks via volunteers. Designed main UI and led team collaboration.",
-  image: require("../assets/Dash 4 Good.png"),
+   image: dash4goodImage,
   category: "Mobile",
   link: "https://devpost.com/software/dash-4-good?ref_content=user-portfolio&ref_feature=in_progress",
   github: "https://github.com/mgaoann/dash-4-good", 
