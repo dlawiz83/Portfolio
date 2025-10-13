@@ -83,7 +83,17 @@ const allProjects = [
   category: "Web",
   link: "#", 
   github: "https://github.com/dlawiz83/Connexta",
-}
+},
+   {
+  id: 8,
+  title: "Dash 4 Good – Community Food Rescue Platform",
+  description:
+    "Built with React Native and Firebase for a hackathon. Connects organizations with surplus food to nearby food banks via volunteers. Designed main UI and led team collaboration.",
+  image: require("../assets/Dash 4 Good.png"),
+  category: "Mobile",
+  link: "https://devpost.com/software/dash-4-good?ref_content=user-portfolio&ref_feature=in_progress",
+  github: "https://github.com/mgaoann/dash-4-good", 
+},
 
 ];
 
