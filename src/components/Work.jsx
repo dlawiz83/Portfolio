@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import crmImage from "../assets/crm.jpg";
 
+
 const allProjects = [
    {
     id: 0,
@@ -97,7 +98,7 @@ const allProjects = [
 
 ];
 
-const categories = ["All", "Web", "Desktop"];
+const categories = ["All", "Web", "Desktop", "Mobile"];
 
 const containerVariants = {
   hidden: { opacity: 0 },
