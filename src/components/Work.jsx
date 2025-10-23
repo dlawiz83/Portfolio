@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import crmImage from "../assets/crm.jpg";
 import dash4goodImage from "../assets/Dash4Good.png";
+import WebMentorBanner from "../assets/WebMentor.png";
 
 
 
@@ -47,38 +48,10 @@ const allProjects = [
     link: "#",
     github: "https://github.com/dlawiz83/Collaborative-text-editor",
   },
+  
+  
   {
-    id: 4,
-    title: "Java ChatBot – Console OOP Bot",
-    description:
-      "Command-line chatbot using OOP principles. Pattern matching, modular state, easy to extend.",
-    image: "https://images.unsplash.com/photo-1595623654300-b27329804025?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVybWluYWwlMjBjb2Rpbmd8ZW58MHx8MHx8fDA%3D",
-    category: "Desktop",
-    link: "#",
-    github: "https://github.com/dlawiz83/Simple-ChatBot",
-  },
-  {
-    id: 5,
-    title: "Secret Message App – PHP + MySQL",
-    description:
-      "Send one-time secret messages via unique links. Messages auto-delete after viewing. Built with PHP + MySQL.",
-    image: "https://plus.unsplash.com/premium_photo-1674506652851-1f8426f4ac39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJpdmFjeSUyMGNvbmNlcHR8ZW58MHx8MHx8fDA%3D",
-    category: "Web",
-    link: "#",
-    github: "https://github.com/dlawiz83/Secret-Message-Generator",
-  },
-  {
-    id: 6,
-    title: "Cinema Ticket Booking – Java Console App",
-    description:
-      "Console-based cinema booking system. OOP, statistics tracking, and seat view logic in Java.",
-    image: "https://plus.unsplash.com/premium_photo-1664303124313-126bf7456982?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2luZW1hJTIwc2VhdHN8ZW58MHx8MHx8fDA%3D",
-    category: "Desktop",
-    link: "#",
-    github: "https://github.com/dlawiz83/Cinema-Ticket-Booking-System",
-  },
-  {
-  id: 7,
+  id: 4 ,
   title: "Connexta – CRM Web App (Frontend in Progress)",
   description:
     "Backend built with Node.js, Express, MongoDB, and JWT authentication. Features full CRUD APIs for users, contacts, and interactions, a Next Actions dashboard, stage-based pipeline API, input validation, and security measures.",
@@ -88,7 +61,7 @@ const allProjects = [
   github: "https://github.com/dlawiz83/Connexta",
 },
    {
-  id: 8,
+  id: 5,
   title: "Dash 4 Good – Community Food Rescue Platform",
   description:
     "Built with React Native and Firebase for a hackathon. Connects organizations with surplus food to nearby food banks via volunteers. Designed main UI and led team collaboration.",
@@ -97,10 +70,21 @@ const allProjects = [
   link: "https://devpost.com/software/dash-4-good?ref_content=user-portfolio&ref_feature=in_progress",
   github: "https://github.com/mgaoann/dash-4-good", 
 },
+   {
+  id: 6,
+  title: "WebMentor – Chrome Extension for Smarter Learning",
+  description:
+    "Turns any webpage into an interactive learning guide using built-in AI for summarizing, simplifying, translating, and rewriting — all locally, no data leaves your browser.",
+  image: WebMentorBanner,
+  category: "AI",
+  link: "https://devpost.com/software/webmentor",
+  github: "https://github.com/dlawiz83/Webmentor",
+},
+
 
 ];
 
-const categories = ["All", "Web", "Desktop", "Mobile"];
+const categories = ["All", "Web", "Desktop", "Mobile", "AI"];
 
 const containerVariants = {
   hidden: { opacity: 0 },
