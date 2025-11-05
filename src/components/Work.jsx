@@ -52,7 +52,7 @@ const allProjects = [
   
   {
   id: 4 ,
-  title: "Connexta – CRM Web App (Frontend in Progress)",
+  title: "Connexta – CRM Web App",
   description:
     "Backend built with Node.js, Express, MongoDB, and JWT authentication. Features full CRUD APIs for users, contacts, and interactions, a Next Actions dashboard, stage-based pipeline API, input validation, and security measures.",
   image: crmImage, 
