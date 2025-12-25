@@ -27,7 +27,7 @@ export default function Education() {
           Bachelor of Science in Computer Science
         </p>
         <p className="text-sm text-gray-500 mb-4">
-          Nov 2023 – Dec 2025 | GPA: <span className="font-semibold">3.78 / 4.00</span>
+          Nov 2023 – Nov 2025 | GPA: <span className="font-semibold">3.8 / 4.00</span>
         </p>
         <h4 className="text-md font-semibold text-gray-700 mb-1">Relevant Coursework:</h4>
         <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
