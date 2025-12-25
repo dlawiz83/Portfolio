@@ -44,7 +44,6 @@ const skillsData = [
       "MySQL",
       "Firebase (Auth + Firestore)",
       "MongoDB",
-      "AWS/Azure",
       "Node.js",
       "Express.js", 
     ],
@@ -91,7 +90,7 @@ const skillsData = [
     "Test-Driven Development (TDD)",
     "Git & GitHub Workflow",
     "Version Control",
-    "Pair Programming"
+   
   ],
 }
 ];
